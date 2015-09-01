@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeySearch", "MonkeySearch.csproj", "{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Release|Any CPU.Build.0 = Release|iPhone
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Release|iPhone.Build.0 = Release|iPhone
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{E7F4724A-6AEE-4EC3-ADB0-F4E71CE0394B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
