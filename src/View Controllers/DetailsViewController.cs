@@ -45,8 +45,8 @@ namespace MonkeySearch
             activity.Title = monkey.Name;
             activity.AddUserInfoEntries(NSDictionary.FromObjectAndKey(new NSString(monkey.Name), new NSString("Name")));
 
-            var keywords = new string[] { monkey.Name, "Monkey" };
-            activity.Keywords = new NSSet(keywords);
+            var keywords = new NSString[] { new NSString(monkey.Name), new NSString("Monkey") };
+            activity.Keywords = new NSSet<NSString>(keywords);
             activity.ContentAttributeSet = new CoreSpotlight.CSSearchableItemAttributeSet(monkey.Details);
 
             return activity;
